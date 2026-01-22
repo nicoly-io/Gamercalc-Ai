@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd Application && npm install --legacy-peer-deps && npm run build",
+  "buildCommand": "cd Application && npm install --install-links && npm run build",
   "outputDirectory": "Application/dist",
-  "framework": null
+  "framework": "vite"
 }
