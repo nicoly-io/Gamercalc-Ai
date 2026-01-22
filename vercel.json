@@ -1,5 +1,4 @@
 {
-  "buildCommand": "cd Application && npm install --install-links && npm run build",
-  "outputDirectory": "Application/dist",
+  "rootDirectory": "Application",
   "framework": "vite"
 }
